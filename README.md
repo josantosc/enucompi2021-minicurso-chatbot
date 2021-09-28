@@ -65,13 +65,13 @@ O Dialogflow fornece aos usuário uma interface voltada para ambiente Web chamad
 
 ![](img/tela-acessp-dw.png)
 
-##### Primeiro acesso a plataforma.
+#### Primeiro acesso a plataforma.
 
 - Acessar o endereço da plataforma [Dialogflow](https://dialogflow.cloud.google.com/login)
 - Clicar na botão `Sign-in with Google`
 - Selecionar a conta de acesso
 
-##### Criação do primeiro agente
+#### Criação do primeiro agente
 
 O conceito de agente no Dialgflow, remeti-se a um agente virtual que prove conversas com usuários finais. É um módulo de PLN que entende as variações da linguagem humana através da tradução dos textos e áudios do usuário durante a conversa para dados estruturados.
 
@@ -90,7 +90,7 @@ As figuras abaixo motram como criar um agente.
 
 ---
 
-##### Configuração do agente
+#### Configuração do agente
 
 O processo abaixo explica como acessar as configurações do agente.
 
@@ -100,16 +100,43 @@ O processo abaixo explica como acessar as configurações do agente.
 
 ![](img/tela-acesso-configurar-agente-dw.jpg)
 
-- Guia Geral
-  Conforme a figura abaixo, temos a guia `Geral` e nela estão disponíveis configurações como, `Description` descrição do agente. `Default Time Zone` fuso horário padrão do agente. `URI do avatar do agente` um URI para o avatar do agente usado por algumas integrações. `Projeto do Google` projeto do GCP vinculado ao agente.
+###### Guia Geral
+
+Conforme a figura abaixo, temos a guia `Geral` e nela estão disponíveis configurações como, `Description` descrição do agente. `Default Time Zone` fuso horário padrão do agente. `URI do avatar do agente` um URI para o avatar do agente usado por algumas integrações. `Projeto do Google` projeto do GCP vinculado ao agente.
 
 ![](img/tela-configuracao-geral-dw.jpg)
 
-- Guia Idiomas
-  Para acessar as configurações de idioma, clique na guia `Language`. É possível definir o idioma padrão e vários idiomas adicionais. Para alguns idiomas raiz, também é possível adicionar uma ou mais localidades. A figura abaixo, mostra as configurações de idiomas.
-  ![](img/tela-idiomas.jpg)
+###### Guia Idiomas
 
-- Guia Exportar e importar
-  Para acessar as configurações de exportação e importação, clique na guia `Exportar e Importar`. Esse recurso permite exportar ou importar um agente para ou de um arquivo zip para fazer backup de agentes ou transferi-los de uma conta para outra. É possível editar os arquivos JSON diretamente e importá-los novamente. Tendo como configurações as opções. `Exportar como ZIP` exporta o agente como um arquivo zip. `Restaurar do ZIP` substitui o agente atual pelo arquivo zip fornecido. `Importar do ZIP` adiciona intents e entidades ao agente atual a partir do arquivo zip fornecido. Se alguma intent ou entidade tiver o mesmo nome que o arquivo zip, ela será substituída.
-  A figura abaixo, mostra as configurações de importação e exportação de agentes.
-  ![](img/tela-importar-exportar.jpg)
+Para acessar as configurações de idioma, clique na guia `Language`. É possível definir o idioma padrão e vários idiomas adicionais. Para alguns idiomas raiz, também é possível adicionar uma ou mais localidades. A figura abaixo, mostra as configurações de idiomas.
+![](img/tela-idiomas.jpg)
+
+###### Guia Exportar e importar
+
+Para acessar as configurações de exportação e importação, clique na guia `Exportar e Importar`. Esse recurso permite exportar ou importar um agente para ou de um arquivo zip para fazer backup de agentes ou transferi-los de uma conta para outra. É possível editar os arquivos JSON diretamente e importá-los novamente. Tendo como configurações as opções. `Exportar como ZIP` exporta o agente como um arquivo zip. `Restaurar do ZIP` substitui o agente atual pelo arquivo zip fornecido. `Importar do ZIP` adiciona intents e entidades ao agente atual a partir do arquivo zip fornecido. Se alguma intent ou entidade tiver o mesmo nome que o arquivo zip, ela será substituída.
+A figura abaixo, mostra as configurações de importação e exportação de agentes.
+![](img/tela-importar-exportar.jpg)
+
+---
+
+#### Criação e configuração de intenções
+
+Nesta etapa, explica como criar, excluir, copiar e mover intenções.
+
+---
+
+#### Criação de entidades
+
+O processo abaixo, explica como criar entidades.
+
+---
+
+### Contextos
+
+No Dialogflow é utilizado contextos para controlar o fluxo de uma conversa, sua configuração é feita dentro de uma intenção informando seus respectivos contextos de entrada e saída. Quando uma intenção é correspondida, todos os contextos de saída configurados para essa intenção são ativados. Embora os contextos estejam ativos, é mais provável que o Dialogflow corresponda às intenções configuradas com contextos de entrada correspondentes aos contextos ativos no momento.
+
+---
+
+### WebHook
+
+Nesta seção é apresentado como o Dialogflow fornece respostas aos usuário através de um serviço de back-end `(WebHook)`, destacamos que não iremos aprofundarmos nas explicações dos conceitos e funcionalidade de `WebHook` e `Fulfilment`
