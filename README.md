@@ -1,1 +1,7 @@
-# enucompi2021-minicurso-chatbot
+<!-- @format -->
+
+# Desenvolvendo ChatBots com o DialogFlow
+
+- Joeckson Correa
+- Davi Viana
+- Ariel Teles
