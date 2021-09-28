@@ -2,7 +2,7 @@
 
 # Desenvolvendo ChatBots com o DialogFlow
 
-#### Autores
+### Autores
 
 - Joeckson Correa
 - Davi Viana
@@ -10,7 +10,7 @@
 
 <!--[Capítulo do Livro em modo rascunho](doc/minicurso_enucompi2021.pdf)-->
 
-## Roteiro
+### Roteiro
 
 1. Fluxo de conversa
 2. Introdução ao Dialogflow
