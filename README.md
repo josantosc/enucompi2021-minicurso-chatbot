@@ -4,9 +4,9 @@
 
 ### Autores
 
-- Joeckson Correa
-- Davi Viana
-- Ariel Teles
+- Joeckson Correa (Mestrando)
+- Dr. Davi Viana
+- Dr. Ariel Teles
 
 ## <!--[Capítulo do Livro em modo rascunho](doc/minicurso_enucompi2021.pdf)-->
 
@@ -273,11 +273,9 @@ Nesta seção é apresentado como o Dialogflow fornece respostas aos usuário at
 
 ```
 
-Consulte o documentação oficial do Dialogflow para mais informações
-
-[Resquest](https://cloud.google.com/dialogflow/es/docs/reference/common-types#webhookrequest)
-
-[Response](https://cloud.google.com/dialogflow/es/docs/reference/common-types#webhookresponse)
+Consulte a documentação oficial do Dialogflow para mais informações:
+- [Resquest](https://cloud.google.com/dialogflow/es/docs/reference/common-types#webhookrequest)
+- [Response](https://cloud.google.com/dialogflow/es/docs/reference/common-types#webhookresponse)
  
 
 
