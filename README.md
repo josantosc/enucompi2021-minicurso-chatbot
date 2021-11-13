@@ -123,6 +123,18 @@ A figura abaixo, mostra as configurações de importação e exportação de age
 
 Nesta etapa, explica como criar, excluir, copiar e mover intenções.
 
+- Clique no botão de adição `+` ao lado de `Intents` no menu da barra lateral à esquerda.
+- Insira um nome para a `Intents`. O nome da `Intents` precisa representar as expressões de usuário final que ela reconhece. Para o ChatBot que está sendo criado, a primeira intenção será chamada de `0.0.0.0-introducao`.
+
+Adicionando frazes de treinamento
+- Na seção `Training phrases`, clique em `Add user expression`.
+- Digite as frases de treinamento correspondentes a intenção em questão, e pressione `Enter` após cada entrada.
+
+Adicionando respostas às intenções.
+- Na seção , digite a resposta da intenção na seção `Text Responses`.
+- Para adicionar mais de uma resposta, clique no botão `ADD RESPONSES`, e adicione as respostas desejadas.
+- Após o preenchimento das respostas, clique em `Save`.
+
 ---
 
 #### Criação de entidades
